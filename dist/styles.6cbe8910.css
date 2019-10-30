@@ -1,0 +1,179 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 8px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  color: #696969;
+  width: 100%;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2,
+.h2 {
+  font-size: 20px;
+  color: #696969;
+}
+
+h1,
+h2 {
+  margin-bottom: calc(8px * 2);
+}
+
+h3 {
+  font-size: 16px;
+  color: #696969;
+  line-height: 23px;
+}
+
+a {
+  color: #696969;
+  text-decoration: none;
+}
+a:visited {
+  color: #696969;
+}
+a:focus {
+  outline: none;
+}
+a:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0 -1px 0 0 white inset, 0 -2px 0 0 #f0f0f0 inset;
+  color: #f0f0f0;
+}
+
+table {
+  width: 100%;
+}
+table th,
+table td {
+  padding: 8px;
+}
+table th {
+  text-align: left;
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+table tr {
+  padding: 8px;
+  border: 1px solid #f0f0f0;
+}
+
+pre {
+  display: inline;
+  background: #f6f8fa;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  font-size: 12px;
+  color: #696969;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.content_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.content_block {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 20px;
+}
+
+.nav_wrap {
+  position: absolute;
+  width: 350px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #f0f0f0;
+  transition: 0.3s;
+}
+.nav_wrap.hidden {
+  left: -350px;
+}
+
+.nav_toggle {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  right: -45px;
+}
+
+.nav_menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 45px 0;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+.nav_menu--item a {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  padding: 8px 20px;
+}
+.nav_menu--item a:hover {
+  background-color: #696969;
+}
+
+.hamburger {
+  position: relative;
+  padding: 8px;
+  height: 28px;
+  background-color: #f0f0f0;
+  transition: 0.3s;
+}
+.hidden .hamburger {
+  background-color: #ffffff;
+}
+.hamburger .line {
+  position: relative;
+  border-top: 2px solid #000000;
+  top: 5px;
+}
+.hamburger .line:nth-child(2) {
+  top: 11px;
+}
+.hamburger .line:nth-child(3) {
+  top: 17px;
+}
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.visible .hamburger:hover .line {
+  top: 14px;
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+.visible .hamburger:hover .line:nth-child(2) {
+  display: none;
+}
+.visible .hamburger:hover .line:nth-child(3) {
+  top: 12px;
+  transform: rotate(-45deg);
+}
+
+/*# sourceMappingURL=/styles.6cbe8910.css.map */

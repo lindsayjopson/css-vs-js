@@ -1,0 +1,32 @@
+{
+  "name": "css-vs-js",
+  "version": "1.0.0",
+  "description": "A comparison project on where to use css vs css-in-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindsayjopson/css-vs-js.git"
+  },
+  "author": "Lindsay Jopson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindsayjopson/css-vs-js/issues"
+  },
+  "homepage": "https://github.com/lindsayjopson/css-vs-js#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.2"
+  },
+  "dependencies": {
+    "graphiql": "^0.16.0",
+    "graphql": "^14.5.8",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "urql": "^1.6.1"
+  }
+}
