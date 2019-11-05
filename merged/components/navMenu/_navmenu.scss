@@ -1,0 +1,24 @@
+.nav_toggle {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  right: -45px;
+}
+
+.nav_menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 45px 0;
+  overflow: hidden;
+  background: $grey-light;
+}
+
+.nav_menu--item {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  padding: 8px 20px;
+  &:hover {
+    background-color: $grey;
+  }
+}
