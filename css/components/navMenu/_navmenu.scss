@@ -34,6 +34,12 @@
   }
 }
 
+.nav_wrap {
+  &.hidden {
+    left: -350px;
+  }
+}
+
 .hamburger {
   position: relative;
   padding: 8px;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-import { grey, greyLight, white, black } from "../../styles/globalVariables";
+import { greyLight, white, black } from "../../styles/globalVariables";
 
 const HamburgerLine = styled.div`
   position: relative;
